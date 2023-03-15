@@ -1,0 +1,20 @@
+﻿@using Microsoft.Owin.Security;
+@model System.Security.Claims.ClaimsIdentity
+
+@{
+    ViewBag.Title = "Protected";
+
+}
+
+<h2>Protected</h2>
+
+Username: @Model.Name
+
+@foreach (System.Security.Claims.Claim claim in Model.Claims)
+{
+    <div>
+        <span>@claim.Type</span>
+        <span>@claim.Value</span>
+    </div>
+}
+

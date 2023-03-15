@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alt_Forms_OpenIDConnect_Sample", "Alt_Forms_OpenIDConnect_Sample\Alt_Forms_OpenIDConnect_Sample.csproj", "{9104AE13-6D89-41DA-9C56-ECE8DE934783}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9104AE13-6D89-41DA-9C56-ECE8DE934783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9104AE13-6D89-41DA-9C56-ECE8DE934783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9104AE13-6D89-41DA-9C56-ECE8DE934783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9104AE13-6D89-41DA-9C56-ECE8DE934783}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAEBB660-7149-4ECA-86FD-57CAACFA571E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Login";
+    string returnUrl = ViewBag.ReturnUrl;
+}
+
+
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("OpenIdLogin", "Auth", FormMethod.Post))
+{
+    @Html.Hidden("returnUrl", returnUrl);
+    <button type="submit">Login as Staff</button>
+}
+
+@using (Html.BeginForm("StandardLogin", "Auth", FormMethod.Post))
+{
+    @Html.Hidden("returnUrl", returnUrl);
+    <label>Username</label>
+    <input name="username" type="text" />
+
+    <label>Password</label>
+    <input name="password" type="password" />
+
+    <button type="submit">Login</button>
+}
